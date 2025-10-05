@@ -88,3 +88,89 @@ Comments are included in all files for easy understanding.
 
 This structure makes it easy for reviewers to check each task independently.
 
+
+
+## 
+## 
+
+## REACT
+
+## 
+# REACT-Tasks
+
+This project contains five React components that demonstrate core React concepts such as state, events, conditional rendering, lists, forms, and props. Each task is implemented in a separate component for clarity and modularity.
+
+## Table of Contents
+1. [Project Setup](#project-setup)
+2. [Components](#components)
+3. [How to Run](#how-to-run)
+4. [Usage](#usage)
+
+---
+
+## Project Setup
+
+This project was created using **Vite** with React. Ensure you have Node.js and npm installed.
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-link>
+   cd REACT-Tasks
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm run dev
+Open the URL provided in your terminal (usually http://localhost:5173) to view the app.
+
+Components
+1. CounterButton.jsx – Task 1: Counter Button
+Displays a count starting from 0.
+
+Increments the count by 1 each time the button is clicked.
+
+2. ConditionalRendering.jsx – Task 2: Conditional Rendering
+Displays "Hello, Guest!" if the user is not logged in.
+
+Displays "Welcome, [username]!" if the user is logged in.
+
+Includes a toggle button to simulate login/logout.
+
+3. FruitsList.jsx – Task 3: Rendering Lists
+Renders an array of fruits (Apple, Banana, Mango, Orange) as an unordered list (<ul>).
+
+4. GreetingForm.jsx – Task 4: Handling Input (Forms)
+Contains an input field and a button.
+
+User types their name and clicks the button to display a greeting: "Hello, [name]!".
+
+5. Header.jsx – Task 5: Props (Passing Data)
+A simple header component that receives a title prop and displays it inside an <h1> tag.
+
+How to Run
+Ensure dependencies are installed (npm install).
+
+Run the development server:
+
+bash
+Copy code
+npm run dev
+Open the app in your browser.
+
+Interact with each component to test its functionality:
+
+Increment the counter in CounterButton
+
+Toggle login in ConditionalRendering
+
+View the fruit list in FruitsList
+
+Type your name and click Greet in GreetingForm
+
+See the dynamic header in Header
+
